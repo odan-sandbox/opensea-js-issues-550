@@ -26,5 +26,12 @@
     "test:lint": "eslint --ext .js,.ts --ignore-path .gitignore .",
     "test:format": "prettier --ignore-path .gitignore . --check",
     "format": "prettier --ignore-path .gitignore . --write"
+  },
+  "dependencies": {
+    "@truffle/hdwallet-provider": "2.0.10-alpha.2",
+    "dotenv": "^16.0.1",
+    "ethers": "^5.6.9",
+    "opensea-js": "^4.0.3",
+    "web3": "^1.7.4"
   }
 }
